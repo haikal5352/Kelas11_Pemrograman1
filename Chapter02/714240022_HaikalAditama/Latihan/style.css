@@ -1,5 +1,5 @@
 
-/* Mengatur tampilan seluruh halaman */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Bagian atas website */
 header {
     background-color: #26374a;
     color: white;
@@ -16,14 +15,12 @@ header {
     padding: 25px;
 }
 
-/* Mengatur bagian isi */
 main {
     width: 85%;
     max-width: 900px;
     margin: 25px auto;
 }
 
-/* Setiap bagian portofolio */
 section {
     background-color: white;
     padding: 20px;
@@ -31,12 +28,10 @@ section {
     border-radius: 8px;
 }
 
-/* Judul bagian */
 h2 {
     color: #26374a;
 }
 
-/* Link GitHub */
 a {
     color: #1677d2;
     text-decoration: none;
@@ -46,7 +41,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Bagian paling bawah */
 footer {
     background-color: #26374a;
     color: white;
