@@ -1,0 +1,33 @@
+html, body { height: 100%; margin: 0; }
+
+body {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+  background: #ffd500;          /* kuning background */
+    font-family: system-ui, sans-serif;
+    color: #3a2f00;
+}
+
+#verity {
+  width: min(70vmin, 420px);    /* besar tombol, menyesuaikan layar */
+    aspect-ratio: 1;
+    padding: 0;
+    border: 0;
+    background: none;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 10px 0 rgba(0, 0, 0, .2));
+    -webkit-tap-highlight-color: transparent;
+    transition: transform .08s ease-out;
+}
+
+#verity:active { transform: scale(.94); }
+#verity:focus-visible { outline: 4px solid #3a2f00; outline-offset: 8px; }
+#verity img { width: 100%; height: 100%; display: block; }
+#status { min-height: 1.5em; margin: 0; text-align: center; }
+
+@media (prefers-reduced-motion: reduce) {
+    #verity { transition: none; }
+}

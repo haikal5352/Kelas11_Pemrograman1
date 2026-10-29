@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi kasir minimarkert digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="wadah no-print">
+        <h2>KASIR MINIMARKET MODERN</h2>
+
+        <label for="pilih Produk"><b>Pilih Produk:</b></label>
+        <select id="pilih produk"></select>
+
+        <label for="jumlah beli"><b>jumlah:</b></label>
+        <input type="number" id="jumlahBeli" min="1" value="1">
+
+        <button class="btn-tambah" onclick="tambahKeKeranjang()">Tambah ke Keranjang</button>
+
+        <h3>daftar belanja</h3>
+        <table>
+            <thead>
+                <th>nama produk</th>
+                <th>harga</th>
+                <th>jumlah</th>
+                <th>subtotal</th>
+                <th>aksi</th>
+            </thead id="tabek keranjang"> 
+        </table>
+
+        <div class="area-pembayaran">
+            <div class="info-harga">Total Belanja: <span class="total-merah">Rp <span id="totalHarga">0</span></span></div>
+        
+            <label for="uangBayar"><b>Uang yang Dibayar (Rp):</b></label>
+            <input type="number" id="uangBayar" placeholder="Masukkan jumlah uang..." oninput="hitungKembalian()">
+        
+            <div class="info-harga">Uang Kembalian: <span class="kembalian-hijau">Rp <span id="uangKembalian">0</span></span></div>
+        </div>
+
+        <!-- Tombol Baru untuk Cetak Struk -->
+        <button class="btn-cetak" onclick="cetakStruk()">Cetak Struk Belanja</button>
+    </div>
+
+    <!-- Area Struk yang Tersembunyi (Hanya muncul saat dicetak) -->
+    <div id="areaStruk" class="print-only"></div>
+
+<!-- Menghubungkan ke file JavaScript terpisah -->
+<script src="script.js"></script>
+</body>
+</html>
+

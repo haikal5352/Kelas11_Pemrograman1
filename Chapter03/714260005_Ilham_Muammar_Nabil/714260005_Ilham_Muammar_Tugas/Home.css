@@ -1,0 +1,53 @@
+body {
+background-color: burlywood;
+margin: 0;
+padding: 0;
+}
+
+
+.BAR {
+background-color: rgb(235, 223, 205);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 20px;
+}
+
+/* Mengatur ukuran dan posisi logo */
+.Logo {
+width: 220px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+/* Mengatur menu navigasi */
+.BAR ul {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+list-style: none;
+margin: 10px 0 0;
+padding: 0;
+}
+
+/* Mengatur tulisan menu */
+.Nav {
+text-decoration: none;
+color: #4B2415;
+font-size: 18px;
+font-weight: bold;
+}
+
+.Nav:hover {
+color: #A0522D;
+}
+
+
+
+.Nav:hover {
+color: #A0522D;
+}
+
+

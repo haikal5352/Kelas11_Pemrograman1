@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf5e8;
+    color:#414b32;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+/* Judul */
+h3 {
+    font-size: 30px;
+    color:#414b32;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* Gambar */
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Semua Teks */
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    color: white;
+    background-color: #75845c;
+    text-decoration: none;
+    padding: 3px 5px;
+    margin: 8px 5px 0 0;
+    border-radius: 15px;
+}
+
+.mengapa_container {
+    background-color: #eeeedf;
+    padding: 20px 20px 20px 40px;
+    border-radius: 12px;
+}
+
+a:hover {
+    background-color: #414b32;
+}

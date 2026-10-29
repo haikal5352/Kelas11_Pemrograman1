@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(235, 223, 205);
+    margin: 0;
+    padding: 0;
+}
+
+.Sambut {
+    background-color: burlywood;
+    margin: 0;
+    padding: 45px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}

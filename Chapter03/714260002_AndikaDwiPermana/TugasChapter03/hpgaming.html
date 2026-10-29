@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunia HP Gaming</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dunia HP Gaming</h1>
+    <p>Selamat datang! Halaman ini membahas <strong>HP gaming</strong> untuk kamu yang <em>suka main game</em>.</p>
+    <hr>
+
+    <!-- BAGIAN 2: Gambar -->
+    <h2>Gambar HP Gaming</h2>
+        <div class="produk">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdADzwhK1JoRaDLe_x44SZDEsRNaKL4_zWv7RZPPIE34n_3Xkb22MEsXn&s=10"
+             alt="HP Gaming ROG Phone"
+             width="300"
+             height="200"
+             title="ROG Phone 8">
+        <p>Contoh tampilan <strong>HP gaming</strong> dengan performa tinggi.</p>
+    </div>
+    <hr>
+
+    <!-- BAGIAN 3: Daftar -->
+    <h2>Daftar HP Gaming</h2>
+        <h3>Top 5 HP Gaming</h3>
+    <ol>
+        <li>ROG Phone 8</li>
+        <li>RedMagic 11 Pro</li>
+        <li>Black Shark 5 Pro</li>
+        <li>IQOO 15</li>
+        <li>POCO F8 Ultra</li>
+    </ol>
+
+    <h3>Fitur Penting</h3>
+    <ul>
+        <li>Layar refresh rate tinggi</li>
+        <li>Prosesor kencang</li>
+        <li>Baterai besar</li>
+        <li>Sistem pendingin</li>
+    </ul>
+
+    <h3>Istilah Gaming</h3>
+    <dl>
+        <dt>Refresh Rate</dt>   
+        <dd>Jumlah gambar yang ditampilkan layar per detik, satuannya Hz.</dd>
+        <dt>Chipset</dt>
+        <dd>Otak HP yang mengatur semua kerja perangkat.</dd>
+        <dt>Touch Sampling Rate</dt>
+        <dd>Seberapa sering layar membaca sentuhan jarimu per detik.</dd>
+    </dl>
+    <hr>
+
+    <!-- BAGIAN 4: Tabel -->
+    <h2>Perbandingan HP</h2>
+        <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama HP</th>
+                <th>Chipset</th>
+                <th>Refresh Rate</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ROG Phone 8</td>
+                <td>Snapdragon 8 Gen 3</td>
+                <td>165 Hz</td>
+                <td>Rp9.999.000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>RedMagic 11 Pro</td>
+                <td>Snapdragon 8 Elite Gen 5</td>
+                <td>144 Hz</td>
+                <td>Rp19.999.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Blackshark 5 Pro</td>
+                <td>Snapdragon 8 Gen 1</td>
+                <td>144 Hz</td>
+                <td>Rp5.999.000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>IQOO 15</td>
+                <td>Snapdragon 8 Elite Gen 5</td>
+                <td>144 Hz</td>
+                <td>Rp17.999.000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>POCO F8 Ultra</td>
+                <td>Snapdragon 8 Elite Gen 5</td>
+                <td>120 Hz</td>
+                <td>Rp12.999.000</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- BAGIAN 5: Link -->
+    <h2>Referensi</h2>
+        <div class="artikel">
+        <h3>
+            <a href="https://rog.asus.com/id/phones/" target="_blank" rel="nofollow">Lihat Koleksi ROG Phone</a>
+        </h3>
+        <p>Temukan spesifikasi lengkap HP gaming favoritmu.</p>
+        <p><a href="https://www.redmagic.gg/" target="_blank">Baca selengkapnya...</a></p>
+    </div>
+    <hr>
+
+    <!-- BAGIAN 6: Form -->
+    <h2>Form Pre-Order</h2>
+        <form action="submit.php" method="post">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label>Kebutuhan:</label>
+        <input type="radio" id="casual" name="kebutuhan" value="casual">
+        <label for="casual">Casual</label>
+        <input type="radio" id="pro" name="kebutuhan" value="pro">
+        <label for="pro">Pro Gamer  </label>
+        <br><br>
+
+        <label for="hp">Pilih HP:</label>
+        <select id="hp" name="hp">
+            <option value="rog">ROG Phone 8</option>
+            <option value="redmagic">RedMagic 11 Pro</option>
+            <option value="redmagic">Blackshark 5 pro</option>
+            <option value="redmagic">IQOO 15</option>
+            <option value="poco">POCO F8 Ultra</option>
+        </select>
+        <br><br>
+
+        <label for="catatan">Catatan:</label><br>
+        <textarea id="catatan" name="catatan" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Pesan Sekarang">
+    </form>
+</body>
+</html>

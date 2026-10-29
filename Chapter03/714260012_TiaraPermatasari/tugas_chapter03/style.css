@@ -1,0 +1,6 @@
+body { font-family: sans-serif; margin: 0; background: #fff5f5; }
+header { background: #d66a6a; color: white; text-align: center; padding: 60px; }
+.btn { background: white; color: #d66a6a; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; }
+.menu { padding: 30px; text-align: center; }
+.cards { display: flex; gap: 15px; justify-content: center; }
+.card { background: white; padding: 20px; border-radius: 15px; width: 180px; }

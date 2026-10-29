@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB CAPIL</title>
+</head>
+<body>
+    <h1>Daftar KTP</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="nik">NIK:</label>
+        <input type="nik" id="nik" name="nik" required />
+        <br />
+        <label for="DESIL">Desil:</label>
+        <input type="radio" id="1-5" name="DESIL" value="1-5" />
+        <label for="1-5">1-5</label>
+        <input
+        type="radio"
+        id="6-9"
+        name="DESIL"
+        value="6-9"
+        />
+        <label for="DESIL">6-9</label>
+        <input type="radio" id="6-9" name="DESIL" value="6-9" />
+        <label for="DESIL">10</label>
+
+        <label for="comment">Masukan untuk pendata Desil:</label> <br />
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Daftar" />
+    </form>
+</body>
+</html>

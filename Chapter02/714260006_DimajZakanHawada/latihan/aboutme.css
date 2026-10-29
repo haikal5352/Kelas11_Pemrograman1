@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.content h2 {
+    color: darkblue;
+}
+
+.content img {
+    width: 150px;
+    height: 150px;
+}
+
+.container-footer {
+    background-color: black;
+}

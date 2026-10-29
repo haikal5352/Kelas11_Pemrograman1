@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #00ff88;
+    text-align: center;
+    margin: 20px 0;
+}
+h2, h3 {
+    color: #00ff88;
+}
+hr {
+    border: 1px solid #333;
+}
+a {
+    color: #4dd0ff;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background: #1f1f1f;
+    color: #00ff88;
+}
+.produk, .artikel {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 255, 136, 0.3);
+}

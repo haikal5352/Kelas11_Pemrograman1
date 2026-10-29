@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(252, 153, 247);
+    color: rgb(29, 30, 92);
+    line-height: 1.7;
+    padding: 30px 16px;
+    
+}
+
+p {
+    font-family: sans-serif;
+}

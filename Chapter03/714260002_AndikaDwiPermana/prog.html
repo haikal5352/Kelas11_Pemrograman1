@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh web programming</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function t() {
+            var e = document.getElementById("comments");
+            e.style.display = "none" === e.style.display ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+    <h2>Judul</h2>
+    <p>Isi artikel tentang seorang programmer</p>
+    <button onclick="t()"></button>
+    <div id="comments" style="display: none;">
+        <h3>Comments</h3>
+        <p>comments 1: wah dia jago banget ngodingnya</p>
+        <p>comments 2: when ya bisa paham coding serta wawasan yang luas</p>
+    </div>
+</body>
+</html>

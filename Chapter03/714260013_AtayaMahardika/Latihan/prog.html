@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Blog Programming</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+        function t() {
+        var e = document.getElementById("comments");
+        e.style.display = "none" === e.style.display ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+    <h2>4chan /b</h2>
+    <p>We do not talk about /b</p>
+    <button onclick="t()">Comments</button>
+    <div id="comments" style="display: none">
+        <h3>Comments</h3>
+        <p>1st Commenter: Yes we dont</p>
+        <p>2nd Commenter: yeah well we dont do that here</p>
+    </div>
+</body>
+</html>
